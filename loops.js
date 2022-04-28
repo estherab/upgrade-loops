@@ -24,3 +24,12 @@ for (let key in alumns) {
 }
 
 console.log(alumns);
+
+// Iteración 3
+const placesToTravel = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar']
+
+console.log("Destinos");
+for (let item of placesToTravel) { // Lo uso bastante junto a forEach
+    console.log('Destino ->', item);
+}
+
